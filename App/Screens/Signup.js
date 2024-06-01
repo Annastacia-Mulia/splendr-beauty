@@ -26,6 +26,9 @@ export default function Signup({ navigation }) {
     passwordConfirmation: "",
     Business_ID: "", // Added businessID field
   });
+  
+  // use state
+  
 
   const [errors, setErrors] = useState({
     firstName: "",
