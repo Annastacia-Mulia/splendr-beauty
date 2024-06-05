@@ -7,7 +7,7 @@ import {
   Text,
   TouchableOpacity,
   TextInput,
-  ScrollView,
+ ScrollView,
 } from "react-native";
 import Icon from "react-native-vector-icons/FontAwesome";
 import axios from "axios";
