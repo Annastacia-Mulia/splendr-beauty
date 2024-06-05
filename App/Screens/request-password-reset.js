@@ -11,6 +11,7 @@ import {
 import axios from "axios";
 import Config from "../Server/config"; // Import the config file
 
+
 export default function ResetPassword({ route, navigation }) {
   const [newPassword, setNewPassword] = useState("");
   const [passwordError, setPasswordError] = useState("");
