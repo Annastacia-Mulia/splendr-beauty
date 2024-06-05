@@ -11,6 +11,9 @@ const transporter = nodemailer.createTransport({
   },
 });
 
+
+
+
 const sendVerificationEmail = (email, token) => {
   const verificationUrl = `${Config.API_URL}/verify-email?token=${token}`;
 
