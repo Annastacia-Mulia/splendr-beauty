@@ -20,6 +20,8 @@ exports.signup = async (req, res) => {
     });
     await user.save();
 
+
+
     sendVerificationEmail(email, verificationToken);
 
     res.status(201).json({ message: 'User created successfully. Please check your email for verification link.' });
