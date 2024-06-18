@@ -8,6 +8,9 @@ const BusinessListScreen = ({ route }) => {
   const { businesses } = route.params;
   const navigation = useNavigation();
 
+
+
+  
   const handleSelectBusiness = async (business) => {
     try {
       await AsyncStorage.setItem('businessID', business.businessID.toString());
