@@ -18,6 +18,10 @@ export default function CompletedAppointmentsScreen({ navigation }) {
   const [completedAppointments, setCompletedAppointments] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
 
+
+
+
+  
   useEffect(() => {
     const fetchCompletedAppointments = async () => {
       setIsLoading(true);
