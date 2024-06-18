@@ -6,6 +6,10 @@ import LogoutConfirmation from './LogoutConfirmation'; // Import the modal compo
 import Icon from 'react-native-vector-icons/FontAwesome';
 
 
+
+
+
+
 const { width } = Dimensions.get('window');
 
 const Profile = () => {
