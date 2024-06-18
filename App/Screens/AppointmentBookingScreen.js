@@ -11,6 +11,11 @@ const AppointmentBookingScreen = ({ route }) => {
   const [availableTimeSlots, setAvailableTimeSlots] = useState(generateTimeSlots());
   const navigation = useNavigation();
 
+
+
+
+
+
   function generateTimeSlots() {
     const timeSlots = [];
     const startTime = 8;
