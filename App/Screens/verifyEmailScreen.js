@@ -11,6 +11,8 @@ const VerifyEmailScreen = ({ route }) => {
     verifyEmail(token);
   }, []);
 
+  
+
   const verifyEmail = async (token) => {
     try {
       const response = await fetch(
