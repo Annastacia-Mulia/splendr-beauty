@@ -12,6 +12,8 @@ import {
 import axios from "axios";
 import Config from "../Server/config"; // Import the config file
 
+
+
 export default function ForgotPassword({ navigation }) {
   const [email, setEmail] = useState("");
   const [isLoading, setIsLoading] = useState(false); // State to manage loading state
