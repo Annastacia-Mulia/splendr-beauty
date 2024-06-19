@@ -17,7 +17,7 @@ import Config from "../Server/config"; // Import the config file
 import { Image } from "react-native";
 
 const { width } = Dimensions.get("window");
-
+// remember to change
 const ClientHomeScreen = () => {
   const navigation = useNavigation();
   const [logoutModalVisible, setLogoutModalVisible] = useState(false);
