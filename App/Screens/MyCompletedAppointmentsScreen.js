@@ -6,6 +6,8 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 import { Rating } from 'react-native-ratings';
 import Config from '../Server/config'; // Adjust path as per your project structure
 
+
+
 const MyCompletedAppointmentsScreen = ({ navigation }) => {
   const [completedAppointments, setCompletedAppointments] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
