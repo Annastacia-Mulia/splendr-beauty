@@ -22,10 +22,6 @@ const AppointmentBookingScreen = ({ route }) => {
     }
     return timeSlots;
   }
-
-
-  
-
   const showDatePicker = () => {
     setDatePickerVisibility(true);
   };
@@ -143,6 +139,8 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.25,
     shadowRadius: 3.84,
   },
+
+  
   submitButtonContainer: {
     padding: 20,
     backgroundColor: '#fff',
