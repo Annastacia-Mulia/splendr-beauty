@@ -15,7 +15,6 @@ const AppointmentBookingScreen = ({ route }) => {
 
 
 
-
   function generateTimeSlots() {
     const timeSlots = [];
     const startTime = 8;
