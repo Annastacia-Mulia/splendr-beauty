@@ -16,6 +16,8 @@ import LogoutConfirmation from "./LogoutConfirmation"; // Import the modal compo
 import Config from "../Server/config"; // Import the config file
 import { Image } from "react-native";
 
+
+
 const { width } = Dimensions.get("window");
 // remember to change
 const ClientHomeScreen = () => {
