@@ -5,6 +5,8 @@ import { useNavigation, useRoute } from '@react-navigation/native';
 
 const { width } = Dimensions.get('window');
 
+
+
 const BusinessScreen = () => {
   const navigation = useNavigation();
   const route = useRoute();
