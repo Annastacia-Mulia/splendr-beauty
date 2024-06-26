@@ -9,8 +9,6 @@ import {
   ActivityIndicator,
   Image,
 } from "react-native";
-
-
 import { useNavigation, useRoute } from "@react-navigation/native";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import Config from "../Server/config";
