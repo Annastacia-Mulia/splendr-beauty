@@ -9,7 +9,7 @@ import {
   Alert,
 } from "react-native";
 import axios from "axios";
-import Config from "../../splendrDemo/App/Server/config";
+import Config from "./Server/config";
 import Icon from "react-native-vector-icons/FontAwesome";
 import { useNavigation, useIsFocused } from "@react-navigation/native";
 import AsyncStorage from "@react-native-async-storage/async-storage";

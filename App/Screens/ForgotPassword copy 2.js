@@ -10,7 +10,7 @@ import {
   ActivityIndicator,
 } from "react-native";
 import axios from "axios";
-import Config from "../../../splendrDemo/App/Server/config"; // Import the config file
+import Config from "../Server/config"; // Import the config file
 
 export default function ForgotPassword({ navigation }) {
   const [email, setEmail] = useState("");

@@ -8,7 +8,7 @@ import {
   Alert,
 } from "react-native";
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import Config from "../../../splendrDemo/App/Server/config";
+import Config from "../Server/config";
 
 const EditProfileScreen = ({ navigation }) => {
   const [userID, setUserID] = useState(null);
